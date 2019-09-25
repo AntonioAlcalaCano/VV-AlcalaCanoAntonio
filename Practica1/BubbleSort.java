@@ -18,7 +18,7 @@ public class BubbleSort {
 	 * @param size The count of total number of elements in array
 	 **/
 
-	public static <T extends Comparable<T>> void BS(T array[], int size) {
+	public static <T extends Comparable<T>> void BS(Integer array[], int size) {
 		boolean swap;
 		int last = size - 1;
 		
