@@ -25,7 +25,7 @@ public class BubbleSort {
 		do
 		{
 			swap = false;
-			for (int count = 0; count < last-1; count++)
+			for (int count = 0; count < last; count++)
 			{
 				int comp = array[count].compareTo(array[count + 1]);
 				if (comp > 0)
