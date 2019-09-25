@@ -30,7 +30,7 @@ public class BubbleSort {
 				int comp = array[count].compareTo(array[count + 1]);
 				if (comp > 0)
 				{
-					T temp = array[count];
+					Integer temp = array[count];
 					array[count] = array[count + 1];
 					array[count + 1] = temp;
 					swap = true;
