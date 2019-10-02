@@ -1,0 +1,7 @@
+El problema encontrado es que se solapan los datos al ordenar el array perdiéndose datos en este proceso, por lo que, una vez ordenados los datos se tienen que guardar el resto de datos correctamente.
+Hemos solucionado esto añadiendo estos dos while al final del método merge.
+            while(i < n1) 
+                arr[k++] = L[i++];
+            
+            while(j < n2) 
+                    arr[k++] = R[j++];
