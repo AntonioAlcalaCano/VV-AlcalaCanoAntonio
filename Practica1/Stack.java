@@ -41,7 +41,7 @@ public class Stack {
 		}
 
 		top--;
-		return arrayStack[top-1];
+		return arrayStack[top];
 	}
 
 	/**
