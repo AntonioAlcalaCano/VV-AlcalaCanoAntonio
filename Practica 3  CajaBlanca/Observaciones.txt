@@ -1,0 +1,7 @@
+Para la clase Dijkstra hemos tenido que editar el codigo ya que habia caminos no factibles en el metodo que hemos estudiado y 
+la explicacion se encuentra como comentarios en el codigo.
+
+Para la clase Entry no se ha tenido que editar el codigo fuente asi que hemos subido solamente los casos de prueba.
+
+Para la clase Parser no se ha tenido que editar el codigo fuente pero si hemos creado un variable 'contadorPrueba' para comprobar si hemos
+entrado dentro de la condicion del metodo.
